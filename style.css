@@ -92,6 +92,7 @@ img {
 }
 
 .row {
+    line-height: 1.5em;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -151,7 +152,6 @@ ul {
 
 .footer-col ul li a {
     font-size: 14px;
-    
     color: #ffffff;
     text-decoration: none;
     font-weight: 300;
@@ -174,4 +174,8 @@ li {
 .icon{
     
     display: inline;
+}
+.footer-col a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
 }
